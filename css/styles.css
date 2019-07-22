@@ -4,6 +4,7 @@ h1{
 
 #button{
   width: 110px;
+  border-radius: 0px 4px 4px 0px;
 }
 
 #logo{
@@ -29,6 +30,7 @@ h1{
   font-size: 13px;
   height: 25px;
   display: inline-block;
+  border: solid 0.5px #27282b;
   background: rgba(209,209,209,1);
   background: -moz-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(102,100,102,1) 50%, rgba(79,79,79,1) 51%, rgba(88,92,94,1) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(209,209,209,1)), color-stop(50%, rgba(102,100,102,1)), color-stop(51%, rgba(79,79,79,1)), color-stop(100%, rgba(88,92,94,1)));
