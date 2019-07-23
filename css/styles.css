@@ -70,7 +70,6 @@ h1{
 }
 
 .container{
-  width: 100%;
   position: relative;
   height: 744px;
 }
@@ -81,7 +80,6 @@ h1{
   width: 100%;
   z-index: -1;
   position: absolute;
-  width: 100%;
   object-fit: cover;
   height: 540px;
 }
@@ -113,17 +111,23 @@ h1{
 
 .footer{
   font-size: 12px;
+  height: 75px;
 }
 
 .footer-left{
   float: left;
+  margin-top: 20px;
 }
 
 .footer-right{
   float: right;
-  margin-right: 50px;
+  margin-top: 20px;
 }
 
 .menu-link-footer{
   float: left;
+}
+
+.terms{
+  float: right;
 }
