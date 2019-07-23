@@ -58,14 +58,14 @@ h1{
 }
 
 .main-img{
-  background: url('../img/sky.jpg');
-  repeat: no-repeat;
   height: 540px;
-  background-attachment: fixed;
-  background-position: center;
   position: absolute;
   width: 100%;
   z-index: -1;
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  height: 540px;
 }
 
 .text{
@@ -73,4 +73,33 @@ h1{
   position: absolute;
   top: 300px;
   left: 35%;
+}
+
+.imgs-bottom{
+  position: absolute;
+  top: 540px;
+  width: 100%;
+}
+
+.img{
+  position: absolute;
+  width: 25%;
+}
+
+.object{
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+#img-2{
+  left: 25%;
+}
+
+#img-3{
+  left: 50%;
+}
+
+#img-4{
+  left: 75%;
 }
