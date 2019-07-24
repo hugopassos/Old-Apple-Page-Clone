@@ -10,12 +10,13 @@ p{
 }
 
 #button{
-  width: 110px;
+  width: 15%;
   border-radius: 0px 4px 4px 0px;
 }
 
 #logo{
   border-radius: 4px 0px 0px 4px;
+  border: solid 0.5px #545454;
 }
 
 #img-1{
@@ -45,19 +46,16 @@ p{
   border-right: none;
 }
 
-.menu-link a{
-  text-decoration: none;
-  color: white;
+.logo{
+  margin-top: -5px;
+  -webkit-filter: drop-shadow(0px -1px 0px #363636);
+  filter: drop-shadow(0px -1px 0px #363636);
 }
 
-.footer a{
-  text-decoration: none;
-  color: #1c8fed;
-}
-
-.footer a:hover{
-  text-decoration: underline;
-  text-decoration-color: #1c8fed;
+.search{
+  width: 80%;
+  border-radius: 10px;
+  opacity: 0.5;
 }
 
 .menu{
@@ -70,25 +68,27 @@ p{
   margin-right: auto;
   top: 80px;
   color: white;
+  text-shadow: 0px -1px 0px #363636;
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .menu-link{
   text-align: center;
-  padding-top: 8px;
-  width: 95px;
+  padding-top: 9px;
+  width: 10.5%;
   font-size: 13px;
-  height: 25px;
+  height: 26px;
   float: left;
-  border: solid 0.5px #27282b;
-  background: rgba(209,209,209,1);
-  background: -moz-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(102,100,102,1) 50%, rgba(79,79,79,1) 51%, rgba(88,92,94,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(209,209,209,1)), color-stop(50%, rgba(102,100,102,1)), color-stop(51%, rgba(79,79,79,1)), color-stop(100%, rgba(88,92,94,1)));
-  background: -webkit-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(102,100,102,1) 50%, rgba(79,79,79,1) 51%, rgba(88,92,94,1) 100%);
-  background: -o-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(102,100,102,1) 50%, rgba(79,79,79,1) 51%, rgba(88,92,94,1) 100%);
-  background: -ms-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(102,100,102,1) 50%, rgba(79,79,79,1) 51%, rgba(88,92,94,1) 100%);
-  background: linear-gradient(to bottom, rgba(209,209,209,1) 0%, rgba(102,100,102,1) 50%, rgba(79,79,79,1) 51%, rgba(88,92,94,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#585c5e', GradientType=0 );
+  border: solid 0.5px #545454;
+  border-left: none;
+  background: rgba(128,128,128,1);
+  background: -moz-linear-gradient(top, rgba(128,128,128,1) 0%, rgba(138,138,138,1) 50%, rgba(120,118,120,1) 51%, rgba(112,111,112,1) 53%, rgba(102,102,102,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(128,128,128,1)), color-stop(50%, rgba(138,138,138,1)), color-stop(51%, rgba(120,118,120,1)), color-stop(53%, rgba(112,111,112,1)), color-stop(100%, rgba(102,102,102,1)));
+  background: -webkit-linear-gradient(top, rgba(128,128,128,1) 0%, rgba(138,138,138,1) 50%, rgba(120,118,120,1) 51%, rgba(112,111,112,1) 53%, rgba(102,102,102,1) 100%);
+  background: -o-linear-gradient(top, rgba(128,128,128,1) 0%, rgba(138,138,138,1) 50%, rgba(120,118,120,1) 51%, rgba(112,111,112,1) 53%, rgba(102,102,102,1) 100%);
+  background: -ms-linear-gradient(top, rgba(128,128,128,1) 0%, rgba(138,138,138,1) 50%, rgba(120,118,120,1) 51%, rgba(112,111,112,1) 53%, rgba(102,102,102,1) 100%);
+  background: linear-gradient(to bottom, rgba(128,128,128,1) 0%, rgba(138,138,138,1) 50%, rgba(120,118,120,1) 51%, rgba(112,111,112,1) 53%, rgba(102,102,102,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808080', endColorstr='#666666', GradientType=0 );
 }
 
 .menu-link:hover{
@@ -100,6 +100,11 @@ p{
   background: -ms-linear-gradient(top, rgba(107,107,107,1) 0%, rgba(82,81,82,1) 50%, rgba(46,46,46,1) 51%, rgba(82,82,82,1) 100%);
   background: linear-gradient(to bottom, rgba(107,107,107,1) 0%, rgba(82,81,82,1) 50%, rgba(46,46,46,1) 51%, rgba(82,82,82,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b6b6b', endColorstr='#525252', GradientType=0 );
+}
+
+.menu-link a{
+  text-decoration: none;
+  color: white;
 }
 
 .container{
@@ -153,6 +158,16 @@ p{
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   position: relative;
   margin: 0 auto;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #1c8fed;
+}
+
+.footer a:hover{
+  text-decoration: underline;
+  text-decoration-color: #1c8fed;
 }
 
 .footer-left{
