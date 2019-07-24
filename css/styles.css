@@ -1,5 +1,12 @@
 h1{
-  background: red;
+  font-size: 40px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-weight: 300;
+  line-height: 2em;
+}
+
+p{
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 #button{
@@ -9,6 +16,10 @@ h1{
 
 #logo{
   border-radius: 4px 0px 0px 4px;
+}
+
+#img-1{
+  border-left: none;
 }
 
 #img-2{
@@ -21,6 +32,17 @@ h1{
 
 #img-4{
   left: 75%;
+  border-right: none;
+}
+
+#flag{
+  display: inline-block;
+  margin-top: -4px;
+  border-right: none;
+}
+
+#privacy{
+  border-right: none;
 }
 
 .menu-link a{
@@ -28,9 +50,20 @@ h1{
   color: white;
 }
 
+.footer a{
+  text-decoration: none;
+  color: #1c8fed;
+}
+
+.footer a:hover{
+  text-decoration: underline;
+  text-decoration-color: #1c8fed;
+}
+
 .menu{
   width: 950px;
   position: absolute;
+  z-index: 1;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -79,16 +112,19 @@ h1{
   position: absolute;
   width: 100%;
   z-index: -1;
-  position: absolute;
   object-fit: cover;
-  height: 540px;
 }
 
 .text{
   color: white;
   position: absolute;
-  top: 300px;
-  left: 35%;
+  top: 150px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 2em;
 }
 
 .imgs-bottom{
@@ -110,24 +146,43 @@ h1{
 }
 
 .footer{
-  font-size: 12px;
-  height: 75px;
+  width: 1000px;
+  font-size: 10px;
+  color: #7d7d7d;
+  height: 85px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  position: relative;
+  margin: 0 auto;
 }
 
 .footer-left{
-  float: left;
   margin-top: 20px;
+  left: 0;
+  position: absolute;
+}
+
+.footer-left-bottom{
+  margin-top: 18px;
 }
 
 .footer-right{
-  float: right;
   margin-top: 20px;
+  position: absolute;
+  right: 0;
 }
 
 .menu-link-footer{
   float: left;
+  padding-left: 8px;
+  padding-right: 7px;
+  border-right: solid #c2c2c2 1px;
+}
+
+.footer-text{
+  position: absolute;
 }
 
 .terms{
-  float: right;
+  position: absolute;
+  left: 230px;
 }
