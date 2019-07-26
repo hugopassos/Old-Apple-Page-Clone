@@ -1,3 +1,7 @@
+button a{
+  display: block;
+}
+
 #button{
   width: 15%;
   border-radius: 0 4px 4px 0;
@@ -37,7 +41,7 @@
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  z-index: 2;
+  z-index: 999;
 
 }
 
@@ -52,11 +56,11 @@
 }
 
 .menu-link{
+  display: block;
   text-align: center;
-  padding-top: 9px;
   width: 10.5%;
   font-size: 13px;
-  height: 26px;
+  height: 38px;
   float: left;
   border: solid 0.5px #545454;
   border-left: none;
@@ -242,10 +246,10 @@
 
 .footer{
   width: 1000px;
-  top: 200px;
+  top: 204px;
   font-size: 10px;
   color: #7d7d7d;
-  height: 85px;
+  height: 80px;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   position: relative;
   margin: 0 auto;
