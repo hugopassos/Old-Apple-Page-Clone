@@ -1,0 +1,328 @@
+button a{
+  display: block;
+}
+
+#button{
+  width: 15%;
+  border-radius: 0 4px 4px 0;
+}
+
+#logo{
+  border-radius: 4px 0 0 4px;
+  border: solid 0.5px #545454;
+}
+
+#flag{
+  display: inline-block;
+  margin-top: -4px;
+  border-right: none;
+}
+
+#privacy{
+  border-right: none;
+}
+
+.logo{
+  margin-top: -5px;
+  -webkit-filter: drop-shadow(0px -1px 0px #363636);
+  filter: drop-shadow(0px -1px 0px #363636);
+}
+
+.search{
+  width: 80%;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+
+.nav-menu{
+  position: absolute;
+  width: 950px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 999;
+
+}
+
+.menu{
+  width: 100%;
+  position: absolute;
+  margin: 0 auto;
+  top: 80px;
+  color: white;
+  text-shadow: 0 -1px 0 #363636;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.menu-link{
+  display: block;
+  text-align: center;
+  width: 10.5%;
+  font-size: 13px;
+  height: 38px;
+  float: left;
+  border: solid 0.5px #545454;
+  border-left: none;
+  background: rgba(128,128,128,1);
+  background: -moz-linear-gradient(top, rgba(128,128,128,1) 0%, rgba(138,138,138,1) 50%, rgba(120,118,120,1) 51%, rgba(112,111,112,1) 53%, rgba(102,102,102,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(128,128,128,1)), color-stop(50%, rgba(138,138,138,1)), color-stop(51%, rgba(120,118,120,1)), color-stop(53%, rgba(112,111,112,1)), color-stop(100%, rgba(102,102,102,1)));
+  background: -webkit-linear-gradient(top, rgba(128,128,128,1) 0%, rgba(138,138,138,1) 50%, rgba(120,118,120,1) 51%, rgba(112,111,112,1) 53%, rgba(102,102,102,1) 100%);
+  background: -o-linear-gradient(top, rgba(128,128,128,1) 0%, rgba(138,138,138,1) 50%, rgba(120,118,120,1) 51%, rgba(112,111,112,1) 53%, rgba(102,102,102,1) 100%);
+  background: -ms-linear-gradient(top, rgba(128,128,128,1) 0%, rgba(138,138,138,1) 50%, rgba(120,118,120,1) 51%, rgba(112,111,112,1) 53%, rgba(102,102,102,1) 100%);
+  background: linear-gradient(to bottom, rgba(128,128,128,1) 0%, rgba(138,138,138,1) 50%, rgba(120,118,120,1) 51%, rgba(112,111,112,1) 53%, rgba(102,102,102,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808080', endColorstr='#666666', GradientType=0 );
+}
+
+.menu-link:hover{
+  background: rgba(107,107,107,1);
+  background: -moz-linear-gradient(top, rgba(107,107,107,1) 0%, rgba(82,81,82,1) 50%, rgba(46,46,46,1) 51%, rgba(82,82,82,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(107,107,107,1)), color-stop(50%, rgba(82,81,82,1)), color-stop(51%, rgba(46,46,46,1)), color-stop(100%, rgba(82,82,82,1)));
+  background: -webkit-linear-gradient(top, rgba(107,107,107,1) 0%, rgba(82,81,82,1) 50%, rgba(46,46,46,1) 51%, rgba(82,82,82,1) 100%);
+  background: -o-linear-gradient(top, rgba(107,107,107,1) 0%, rgba(82,81,82,1) 50%, rgba(46,46,46,1) 51%, rgba(82,82,82,1) 100%);
+  background: -ms-linear-gradient(top, rgba(107,107,107,1) 0%, rgba(82,81,82,1) 50%, rgba(46,46,46,1) 51%, rgba(82,82,82,1) 100%);
+  background: linear-gradient(to bottom, rgba(107,107,107,1) 0%, rgba(82,81,82,1) 50%, rgba(46,46,46,1) 51%, rgba(82,82,82,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b6b6b', endColorstr='#525252', GradientType=0 );
+}
+
+.menu-link a{
+  text-decoration: none;
+  color: white;
+}
+
+.main-container{
+  background: url('../img/main-img.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 540px;
+}
+
+.main-img{
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  height: 540px;
+  display: block;
+  width: 100%;
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  height: 540px;
+}
+
+.div-text{
+  position: absolute;
+  top: 100px;
+  width: 750px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+}
+
+.text{
+  background: url('../img/text.png');
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  height: 200px;
+  z-index: 2;
+  display: block;
+  color: rgba(0, 0, 0, 0);
+}
+
+.text2{
+  background: url('../img/text2.png');
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+  height: 200px;
+  z-index: 2;
+  display: block;
+  color: rgba(0, 0, 0, 0);
+}
+
+.text3{
+  background: url('../img/text4.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 280px;
+  height: 30px;
+  z-index: 3;
+  display: block;
+  color: rgba(0, 0, 0, 0);
+}
+
+.text3:hover{
+  background: url('../img/text3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 280px;
+  height: 30px;
+  z-index: 3;
+  display: block;
+  color: rgba(0, 0, 0, 0);
+}
+
+.footer-imgs{
+  width: 100%;
+  border-top: solid white 2px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer-img-1{
+  background: url('../img/promo_iphone5s.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+  height: 200px;
+  width: 25%;
+  display: block;
+  border-right: solid white 1px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer-img-2{
+  background: url('../img/promo_iphone5c.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+  height: 200px;
+  width: 25%;
+  display: block;
+  border-right: solid white 1px;
+  border-left: solid white 1px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer-img-3{
+  background: url('../img/promo_30_years.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+  height: 200px;
+  width: 25%;
+  display: block;
+  border-right: solid white 1px;
+  border-left: solid white 1px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer-img-4{
+  background: url('../img/promo_supplier_responsibility.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+  height: 200px;
+  width: 25%;
+  display: block;
+  border-left: solid white 1px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer{
+  width: 1000px;
+  top: 204px;
+  font-size: 10px;
+  color: #7d7d7d;
+  height: 80px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  position: relative;
+  margin: 0 auto;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #1c8fed;
+}
+
+.footer a:hover{
+  text-decoration: underline;
+  text-decoration-color: #1c8fed;
+}
+
+.footer-left{
+  margin-top: 20px;
+  left: 0;
+  position: absolute;
+}
+
+.footer-left-bottom{
+  margin-top: 18px;
+}
+
+.footer-right{
+  margin-top: 20px;
+  position: absolute;
+  right: 0;
+}
+
+.menu-link-footer{
+  float: left;
+  padding-left: 8px;
+  padding-right: 7px;
+  border-right: solid #c2c2c2 1px;
+}
+
+.footer-text{
+  position: absolute;
+}
+
+.terms{
+  position: absolute;
+  left: 230px;
+}
+
+@media (max-width: 1120px) {
+  .main-container{
+    width: 1120px;
+  }
+
+  .nav-menu{
+    margin-left: 85px;
+  }
+
+  .div-text{
+    margin-left: 185px;
+  }
+
+  .footer-imgs{
+    width: 1120px;
+  }
+
+  .footer{
+    width: 1120px;
+  }
+
+  .footer-left{
+    left: 56px;
+  }
+
+  .footer-right{
+    right: 60px;
+  }
+}
